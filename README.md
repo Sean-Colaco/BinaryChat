@@ -34,7 +34,7 @@ If an excessive amount of messages have been sent then a scroll bar will appear 
 
 ## SideBar Animations
 
-Don't forget to check out the smooth animations on the sidebar!
+Don't forget to check out the smooth animations on the sidebar aswell as the sound effects when sending and receiving messages!
 
 <img src='readMeImages/BinaryChatFooterAnimations.gif'>
 
