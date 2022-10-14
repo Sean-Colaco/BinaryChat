@@ -1,0 +1,23 @@
+@keyframes rotate{
+    100%{transform: rotate(360deg);}
+}
+
+@keyframes sendMsgAlert{
+   0%{background-color: rgb(5, 196, 5);}
+   100%{transform: scale(6);}
+}
+
+@keyframes noSendMsgAlert{
+    0%{background-color: rgb(255, 0, 0);}
+    100%{transform: scale(6);}
+ }
+
+@keyframes sentMsgAlert{
+    0%{background-color: rgb(5, 196, 5); transform: scale(6);}
+    100%{background-color: rgb(5, 196, 5); transform: scale(6);}
+ }
+
+ @keyframes notSentMsgAlert{
+    0%{background-color: rgb(255, 0, 0); transform: scale(6);}
+    100%{background-color: rgb(255, 0, 0);  transform: scale(6);}
+ }

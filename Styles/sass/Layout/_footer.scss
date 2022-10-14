@@ -1,0 +1,162 @@
+.footer{
+    background-image: url('Images/dNQTbX.webp');
+    // background-image: cover;
+    font-family: $mainFont;
+    font-size: 2rem;
+    flex-basis: 20%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    // color:#20C20E;
+
+    @include respond(tab-port){
+        display: none;
+    }
+
+
+    &Submit{
+        background-color: #20C20E;
+        padding: 1rem;
+        border-radius: 2rem;
+        color:white;
+        text-transform: white;
+        cursor: pointer;
+        margin-top: 1.5rem;
+        transition: all .5s;
+        align-self: center;
+        position: relative;
+        display:inline-block;
+        
+
+        &:hover{
+            transform: translateY(-0.3rem);
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.205);
+            
+        }
+
+        &:hover::after {
+            transform: scaleX(1.6) scaleY(1.8);
+            opacity: 0; }
+    }
+
+    &Submit::after {
+        content: '';
+        display: inline-block;
+        background-color: #20C20E;
+        width:100%;
+        height:100%;
+        border-radius: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .5s; 
+
+        
+    }
+
+    // &Submit:hover::after{
+       
+    //         transform: scaleX(1.4) scaleY(1.6);
+    //         opacity: 0;
+        
+    // }
+
+    
+
+    &Heading{
+        background-image: linear-gradient(to right,
+        rgb(255, 94, 0), yellow);
+        -webkit-background-clip: text;
+        background-clip:text;
+        letter-spacing: 2px;
+        text-align: center;
+        font-weight: 700;
+        display: inline-block;
+        color: transparent;
+        margin-bottom: -1rem;
+
+        @include respond(small-pc){
+            display: none;
+        }
+    }
+
+
+  
+    
+    &form{
+       align-self: center;
+       width: 100%;
+
+       &__input{
+        color: white;
+        font-size: 20px;
+        background-color: transparent;
+        display:block;
+        width:70%;
+        margin:0 auto;
+        margin-top: 2rem;
+        padding: 8px;
+
+        border-image: linear-gradient(45deg,#20C20E, #0d4707) 1;
+        border-width: 4px;
+        border-style: solid;
+
+        border-top: transparent;
+        border-right: transparent;
+        border-left: transparent;
+       }
+
+       &__input::placeholder{
+        color:white;
+        font-size: 20px;
+       }
+    }
+
+    &__navigation{
+        margin-left:-4rem;
+        text-align: center;
+
+    }
+
+    &__link{
+        text-decoration: none;
+        color:#20C20E;
+        padding: 3rem;
+        
+    }
+
+    &__list{
+        list-style-type: none;
+        
+    }
+
+    &__item{
+        padding: 1.5rem;
+        transition:all .3s;
+        &:hover {
+            transform: rotate(25deg);
+            background-color: black;
+        }
+
+       
+    }
+
+    &__copyright{
+
+        padding: 2rem;
+        color:#20C20E;
+        text-align: center;
+
+        @include respond(tab-land){
+            display: none;
+        }
+    
+    }
+    
+}
+
+
+
+
+    

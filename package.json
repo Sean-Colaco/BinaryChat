@@ -1,0 +1,17 @@
+{
+  "name": "codewithnikhil",
+  "version": "1.0.0",
+  "description": "encrypted chat application",
+  "main": "script.js",
+  "scripts": {
+    "compile:sass": "node-sass Styles/sass/main.scss Styles/styles.css"
+  },
+  "author": "Nikhil and Sean",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "firebase": "^9.8.4"
+  }
+}
