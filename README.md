@@ -38,7 +38,7 @@ Don't forget to check out the smooth animations on the sidebar aswell as the sou
 
 <img src='readMeImages/BinaryChatFooterAnimations.gif'>
 
-## Completly Responsive
+## Completely Responsive
 
 ### Tablet Portrait
 
